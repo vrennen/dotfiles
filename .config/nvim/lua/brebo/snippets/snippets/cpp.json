@@ -1,0 +1,16 @@
+{
+    "maratona": {
+        "prefix": "comp",
+        "body": [
+            "#include <bits/stdc++.h",
+            "",
+            "#define ull unsigned long long;",
+            "",
+            "int main() {",
+            "    $0",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Codigo inicial para maratona"
+    }
+}

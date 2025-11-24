@@ -1,0 +1,17 @@
+return {
+    "akinsho/bufferline.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons"},
+    version = "*",
+    opts = {
+        options = {
+            mode = "tabs",
+            separator_style = "slant",
+            numbers = "ordinal",
+            indicator = {
+                icon = '|',
+                style = 'icon',
+            },
+            diagnostics = "nvim_lsp",
+        },
+    },
+}
