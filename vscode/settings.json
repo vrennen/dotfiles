@@ -1,0 +1,33 @@
+{
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "phase",
+    "editor.minimap.autohide": "mouseover",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Catppuccin Mocha",
+
+    "vim.visualModeKeyBindingsNonRecursive": [],
+    "vim.useSystemClipboard": true,
+    "vim.smartRelativeLine": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [";"],
+            "after": [":"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "redhat.telemetry.enabled": false,
+    "workbench.activityBar.location": "top",
+    "window.menuBarVisibility": "compact",
+    "editor.renderWhitespace": "all",
+    "window.commandCenter": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.commandLineModeKeyBindings": [
+        
+    ],
+    "chat.disableAIFeatures": true,
+    "chat.extensionUnification.enabled": false
+}
