@@ -24,3 +24,6 @@ keymap.set("n", "<leader>nh", ":nohl<CR>", {desc = "limpar highlight de pesquisa
 keymap.set("n", "<leader>k", "<C-a>", {desc = "incrementar numero no cursor"})
 keymap.set("n", "<leader>j", "<C-x>", {desc = "decrementar numero no cursor"})
 
+keymap.set("t", "<Esc>", "<C-\\><C-n>", {desc = "voltar pro modo normal"})
+keymap.set("n", "<leader>tt", "<cmd>ToggleTerm<CR>", {desc = "abrir/fechar terminal"})
+

@@ -33,6 +33,17 @@ return {
             { "lsp_status" },
         }
       },
+      inactive_sections = {
+        lualine_b = {
+          { "filename" },
+        },
+        lualine_c = {
+          { "filesize" },
+        },
+        lualine_z = {
+          { "filetype" },
+        }
+      }
     })
   end,
 }
