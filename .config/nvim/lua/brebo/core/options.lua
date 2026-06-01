@@ -12,12 +12,15 @@ opt.autoindent = true
 opt.wrap = false
 opt.ignorecase = true
 opt.smartcase = true
+opt.scrolloff = 10
+opt.sidescrolloff = 10
 
 opt.cursorline = true
 
 opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
+opt.colorcolumn = "100"
 
 opt.backspace = "indent,eol,start"
 
