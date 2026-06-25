@@ -12,7 +12,7 @@ OSes em dual boot em drives separados
 - Status Bar: YASB
 
 ## Drive 1: Linux
-- OS: Ubuntu 24.04.4 LTS
+- OS: Fedora Workstation 44
 - DE/WM: GNOME
 
 ## Visual
