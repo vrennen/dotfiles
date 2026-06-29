@@ -1,7 +1,8 @@
 return {
   "nvim-tree/nvim-tree.lua",
   -- version = "v1.16.0",
-  lazy = true,
+  lazy = false,
+  -- cmd = "NvimTreeToggle",
   dependencies = "nvim-tree/nvim-web-devicons",
   config = function()
     local nvimtree = require("nvim-tree")
@@ -48,10 +49,10 @@ return {
     })
 
     -- set keymaps
-    local keymap = vim.keymap -- for conciseness
-
-    keymap.set("n", "<leader>ff", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "alterar explorador de aquivos" }) -- toggle file explorer on current file
-    keymap.set("n", "<leader>fc", "<cmd>NvimTreeCollapse<CR>", { desc = "colapsar pasta" }) -- collapse file explorer
-    keymap.set("n", "<leader>fr", "<cmd>NvimTreeRefresh<CR>", { desc = "atualizar explorador" }) -- refresh file explorer
+    -- local keymap = vim.keymap -- for conciseness
+    --
+    -- keymap.set("n", "<leader>ff", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "alterar explorador de aquivos" }) -- toggle file explorer on current file
+    -- keymap.set("n", "<leader>fc", "<cmd>NvimTreeCollapse<CR>", { desc = "colapsar pasta" }) -- collapse file explorer
+    -- keymap.set("n", "<leader>fr", "<cmd>NvimTreeRefresh<CR>", { desc = "atualizar explorador" }) -- refresh file explorer
   end
 }

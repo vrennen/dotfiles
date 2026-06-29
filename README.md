@@ -15,6 +15,19 @@ OSes em dual boot em drives separados
 - OS: Fedora Workstation 44
 - DE/WM: GNOME
 
+## Extensões do GNOME (ja que o gnome se nega a ter funcionalidades basicas)
+- Blur my Shell
+- Brightness Indicator Percentage
+- Caffeine
+- Clipboard History
+- Grand Theft Focus
+- GSConnect
+- Just Perfection
+- RunCat
+- Sound percentage
+- Touchpad Gesture Customization
+- Weather O'Clock
+
 ## Visual
 - Esquema de cores: [Catpuccin Mocha](https://catppuccin.com/)
 - Fonte: JetBrainsMono Nerd Font & [Monocraft](https://github.com/IdreesInc/Monocraft)

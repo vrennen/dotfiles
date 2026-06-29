@@ -42,3 +42,7 @@ keymap.set("n", "<leader>tt", "<cmd>ToggleTerm<CR>", {desc = "abrir/fechar termi
 keymap.set("n", "~", "~h", {desc = "toggle case sem mover o cursor"})
 
 keymap.set("n", "<leader>no", ":e eph_"..vim.fn.strftime("%Y%m%d%H%M%S").."<CR>", {desc = "criar nota efemera"})
+
+keymap.set("n", "<leader>ff", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "alterar explorador de aquivos" }) -- toggle file explorer on current file
+keymap.set("n", "<leader>fc", "<cmd>NvimTreeCollapse<CR>", { desc = "colapsar pasta" }) -- collapse file explorer
+keymap.set("n", "<leader>fr", "<cmd>NvimTreeRefresh<CR>", { desc = "atualizar explorador" }) -- refresh file explorer
