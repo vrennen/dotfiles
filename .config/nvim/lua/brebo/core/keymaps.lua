@@ -46,3 +46,5 @@ keymap.set("n", "<leader>no", ":e eph_"..vim.fn.strftime("%Y%m%d%H%M%S").."<CR>"
 keymap.set("n", "<leader>ff", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "alterar explorador de aquivos" }) -- toggle file explorer on current file
 keymap.set("n", "<leader>fc", "<cmd>NvimTreeCollapse<CR>", { desc = "colapsar pasta" }) -- collapse file explorer
 keymap.set("n", "<leader>fr", "<cmd>NvimTreeRefresh<CR>", { desc = "atualizar explorador" }) -- refresh file explorer
+
+keymap.set("n", "<leader>do", "<cmd>lua vim.diagnostic.open_float()<CR>", {desc = "abrir diagnostico do item sob o cursor"})

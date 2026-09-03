@@ -2,9 +2,11 @@
     "maratona": {
         "prefix": "comp",
         "body": [
-            "#include <bits/stdc++.h",
+            "#include <bits/stdc++.h>",
             "",
-            "#define ull unsigned long long;",
+            "#define ull unsigned long long",
+            "",
+            "using namespace std;",
             "",
             "int main() {",
             "    $0",
